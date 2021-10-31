@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    overflow: hidden;
+    position: relative;
+    background-color: #f74c55;
+    width: 1280px;
+    height: 496px;
+}
+
+.header_container{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+.hyperLinks{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 750px;
+    top: 30px;
+    width: 270px;
+    height: 14px;
+    text-transform: uppercase;
+    z-index: 19;
+}
+
+.hyperLinks a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.center{
+    position: absolute;
+    color: #ffffff;
+    top: 180px;
+    left: 700px;
+    z-index: 20;
+}
+
+.center h1{
+    font-size: 40px;
+    font-weight: 50;
+    margin: -5px 0;
+}
+
+.center h2{
+    font-size: 16px;
+    font-weight: 100;
+}
+ 
+.center button{
+    background-color: #f74c55;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 154px;
+    height: 44px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+  
+  
+  
+
+.Ellipse_1_copy {
+    border-radius: 50%;
+    background-color: rgb(238, 115, 47);
+    position: absolute;
+    left: 75px;
+    top: -106px;
+    width: 206px;
+    height: 206px;
+    z-index: 11;
+}
+  
+.Ellipse_1_copy_2 {
+    border-radius: 50%;
+    background-color: rgb(247, 76, 85);
+    position: absolute;
+    left: 38px;
+    top: -119px;
+    width: 281px;
+    height: 281px;
+    z-index: 10;
+}
+
+.Ellipse_1_copy_3 {
+    border-radius: 50%;
+    background-color: rgb(45, 95, 59);
+    position: absolute;
+    left: -14px;
+    top: -133px;
+    width: 384px;
+    height: 384px;
+    z-index: 9;
+}
+
+.Ellipse_1_copy_4 {
+    border-radius: 50%;
+    background-color: rgb(130, 163, 173);
+    position: absolute;
+    left: -55px;
+    top: -144px;
+    width: 466px;
+    height: 466px;
+    z-index: 8;
+}
+
+.Ellipse_1_copy_5 {
+    border-radius: 50%;
+    background-color: rgb(247, 76, 85);
+    position: absolute;
+    left: -84px;
+    top: -141px;
+    width: 525px;
+    height: 526px;
+    z-index: 5;
+}
+
+.Ellipse_1_copy_6 {
+    border-radius: 50%;
+    background-color: rgb(64, 64, 64);
+    position: absolute;
+    left: -181px;
+    top: -168px;
+    width: 718px;
+    height: 718px;
+    z-index: 4;
+}
+  
+.Ellipse_1_copy_7 {
+  border-radius: 50%;
+  background-color: rgb(251, 99, 107);
+  position: absolute;
+  left: -257px;
+  top: -188px;
+  width: 870px;
+  height: 870px;
+  z-index: 3;
+}
+.Ellipse_2_copy_1 {
+    border-radius: 50%;
+  background-color: rgb(238, 115, 47);
+  position: absolute;
+  left: 1217px;
+  top: 328px;
+  width: 206px;
+  height: 206px;
+  z-index: 16;
+}
+
+.Ellipse_2_copy_2 {
+    border-radius: 50%;
+  background-color: rgb(247, 76, 85);
+  position: absolute;
+  left: 1162px;
+  top: 308px;
+  width: 281px;
+  height: 281px;
+  z-index: 15;
+}
+.Ellipse_2_copy_3 {
+  border-radius: 50%;
+  background-color: rgb(45, 95, 59);
+  position: absolute;
+  left: 1084px;
+  top: 283px;
+  width: 384px;
+  height: 384px;
+  z-index: 14;
+}
+
+.Ellipse_2_copy_4 {
+  border-radius: 50%;
+  background-color: rgb(64, 64, 64);
+  position: absolute;
+  left: 1022px;
+  top: 263px;
+  width: 466px;
+  height: 466px;
+  z-index: 13;
+}
+
+.Ellipse_2copy_5 {
+    border-radius: 50%;
+    background-color: rgb(251, 99, 107);
+    position: absolute;
+    left: 971px;
+    top: 247px;
+    width: 527px;
+    height: 527px;
+    z-index: 12;
+}
+  
+  
+  /*  Main  */
+  
+main{
+    width: 1280px;
+    height: 100%;
+}
+
+.first_section{
+    width: 100%;
+    height: 450px;
+    padding: 80px 220px;
+} 
+
+.first_section h3{
+    font-weight: 100;
+    font-size: 26px;
+}
+
+
+.second_section {
+    display: grid;
+    grid-template-columns: 477px 326px 477px;
+    grid-template-rows: 300px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "part1 part2 part3";
+}
+  
+.part1{
+    grid-area: part1;
+    background-color: #404040;
+}
+
+.part2{
+    grid-area: part2;
+    background-color: #f74c55;
+}
+
+.part3{
+    grid-area: part3;
+    background-color: #2d5f3b;
+}
+  
+.part1_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.part1_logo{
+    background: url(../img/statistic\ up.png);
+    width: 29px;
+    height: 34px;
+}
